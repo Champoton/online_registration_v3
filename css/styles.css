@@ -172,6 +172,11 @@ input:focus {
 	text-align: left;
 }
 
+input:blurred {
+	border: 5px solid red;
+	text-align: left;
+}
+
 button {
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
