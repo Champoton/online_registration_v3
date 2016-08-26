@@ -142,9 +142,6 @@ input[id="zip"] {
 }
 
 select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	color: #8a97a0;
 }
 
@@ -169,11 +166,6 @@ input[type="checkbox"] {
 
 input:focus {
 	border: 5px solid #FFC733;
-	text-align: left;
-}
-
-input:blurred {
-	border: 5px solid red;
 	text-align: left;
 }
 
