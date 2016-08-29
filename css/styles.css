@@ -20,7 +20,7 @@ body {
 	font-size: 1em;
 }
 
-.wrap {
+.container {
 	width: 100%;
 	max-width: 1024px;
 	margin: 100px auto;
@@ -90,7 +90,7 @@ p {
 ============================ */
 
 form {
-	padding: 0;
+	padding: 90 ;
 	margin: 0px;
 }
 
@@ -98,17 +98,25 @@ fieldset {
 	margin: 5px 0 0 0;
 	border: none;
 	border-top: 2px solid #FFC733;
-	padding: 80px 20px;
+	padding: 120px 20px;
 	width: auto;
 	display: block;
 	background-color: white;
+	position: relative;
 }
 
 legend {
-	display: block;
+		color: #2d3945;
+	font-size: 1.6em;
+	margin: 0 0 40px 0;
+	font-weight: 700;
+    position:absolute;
+    top:40px;
+    left:18px;
 }
 
 input[type="text"],
+input[type="tel"],
 input[type="email"],
 input[type="color"],
 input[type="url"],
